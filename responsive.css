@@ -1,0 +1,718 @@
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    html{
+        scroll-behavior: smooth;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    
+    .header-section{
+        color: white;
+        background-color: #040301;
+        display: flex;
+        height: 60px;
+        background: linear-gradient(45deg,black,rgb(125, 124, 124));
+        
+       
+       
+    }
+    .header-name{
+       width: 100px;
+       justify-content: center;
+       align-self: center;
+       font-size: 1.3rem;
+       padding: 0 12px;
+       color: rgb(125, 124, 124);
+    
+    }
+    .header-content{ 
+        padding-left: 320px;
+     
+    }
+    .header-content nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        padding-top: 16px;
+        
+        
+    }
+    .header-content nav ul a {
+        font-size: 1.2rem;
+        padding : 0px 12px ;
+        padding-top: 12px;
+        text-decoration : none ;
+        color: white;
+       
+    }
+    .header-content nav ul a:hover{
+        color: black;
+    }
+    /* *********************************************************************************** */
+
+.hero-section{
+    display: flex;
+}
+.main-pic{
+    height: 188px;
+    width: 651px;
+    background-image: url(photo/Stan-In-Memoriam.jpg);
+    background-size: contain;
+    background-color: grey;
+}
+.main-text{
+    width: 885px;
+    height: 188px;
+    color: white;
+    background-color: #040301;
+}
+h1 {
+    position: relative;
+    top: 40px;
+    left: 73px;
+   
+}
+h3 {
+    position:relative;
+    top: 38px;
+    left: 183px;
+}
+.line-text {
+    position: relative;
+    top: 75px;
+    left: 93px;
+    font-size: 15px;
+    color: silver;
+    letter-spacing: 4px;
+}
+/* ********************************************************************** */
+.section{
+    padding: 38px 0 ;
+    background-color: black;
+}
+.insider{
+    display:flex;
+   
+}
+.about-text{
+    height: 400px;
+    width: 988px;
+    background-color:#000000;
+    color: silver;
+    display: flex;
+    justify-content: center;
+    padding-left: 32px;
+    padding-top: 41px;
+    font-size: 21px;
+}
+.about-pic{
+    height: 441px;
+    width: 548px;
+    background-image: url(photo/stan-lee-marvel-rip-iron-man.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: black;
+}
+.highlight {
+    color: white;
+}
+/* ****************************************************************** */
+#milestone{
+    height: 440px;
+    background-color: black;
+   
+}
+.inside-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+    font-size: 23px;
+    color: silver;
+    letter-spacing: 23px;
+    background-color: black;
+   
+    
+}
+.box1{
+    margin: 0 5px;
+    height: 200px;
+    width: 150px;
+    /* background-image: url(photo/m.webp); */
+    background-color: rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position:top;
+}
+.box-pic1{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    background-image: url(photo/Eisner_Award_Trophy.png);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.box-text{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 12px;
+}
+.box2{
+    margin: 0 5px;
+    height: 200px;
+    width: 150px;
+    background-color:  rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 10px;
+}
+.box-pic2{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    background-image: url(photo/harvey.jpg);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.box3{
+    margin: 0 5px;
+    height: 200px;
+    width: 150px;;
+    background-color: rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 10px;
+}
+.box-pic3{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    background-image: url(photo/pga_goldfrills_logo.jpg);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.box4{
+    margin: 0 5px;
+    height: 200px;
+    width: 150px;
+    background-color:rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size:inherit;
+    background-position: 10px;
+}
+.box-pic4{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    background-image: url(photo/VES.jpg);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.box5{
+    margin: 0 5px;
+    height: 200px;
+    width: 150px;
+    background-color:rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 10px;
+}
+.box-pic5{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    background-image: url(photo/nationalmedalofart.jpeg);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.box6{
+    margin: 0 5px;
+    height: 200px;
+    width: 150px;
+    background-color:rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 10px;
+}
+.box-pic6{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    background-image: url(photo/walkoffame.webp);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+/* ****************************************************** */
+
+#comic {
+    height: 440px;
+    background-color: black;
+  
+ }
+ .comic-inside{
+     display: flex;
+     justify-content: center;
+     padding-top: 40px;
+ }
+ .img-box{
+     height: 300px;
+     width: 183px;
+     margin:0 5px;
+     overflow: hidden;
+     
+ }.img-box img { 
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ 
+ .More{
+     text-decoration: none;
+     font-size: 22px;
+     display: flex;
+     justify-content: center;
+     padding-top: 0px;
+     color: silver;
+ }
+ 
+ /* ****************************************************************** */
+ 
+ #moives{
+     height: 440px;
+     background-color: black;
+   
+ }
+ 
+ /* ************************************************************************** */
+ 
+ .social-account{
+     background-color: black;
+     height: 65px;
+ }
+ .social-media{
+     display: flex;
+     padding-top: 10px;
+     justify-content: center;
+     align-items: center;
+ }
+ .cell{
+     height: 40px;
+     width: 40px;
+     border-radius: 400px;
+     text-decoration: none;
+     
+     
+ }
+ .cell:hover{
+     height: 40px;
+     width: 40px;
+     border-radius: 400px;
+     background-color: grey;
+     
+ }
+ .fa-brands{
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+ }
+ 
+}
+
+
+@media (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    html{
+        scroll-behavior: smooth;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    
+    .header-section{
+        color: white;
+        background-color: #040301;
+        display: flex;
+        height: 60px;
+        background: linear-gradient(45deg,black,rgb(125, 124, 124));
+        
+       
+       
+    }
+    .header-name{
+       width: 200px;
+       justify-content: center;
+       align-self: center;
+       font-size: 1.2rem;
+       padding: 0 12px;
+       color: rgb(125, 124, 124);
+    
+    }
+    .header-content{ 
+        padding-left: 34px;
+     
+    }
+    .header-content nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        padding-top: 16px;
+        
+        
+    }
+    .header-content nav ul a {
+        font-size: 1rem;
+        padding : 0px 12px ;
+        padding-top: 12px;
+        text-decoration : none ;
+        color: white;
+       
+    }
+    .header-content nav ul a:hover{
+        color: black;
+    }
+       /* *********************************************************************************** */
+
+    .hero-section{
+    display: flex;
+    }
+    .main-pic{
+    height: 118px;
+    width: 651px;
+    background-image: url(photo/Stan-In-Memoriam.jpg);
+    background-size: contain;
+    background-color: grey;
+    }
+    .main-text{
+    height: 118px;
+    width: 885px;
+    color: white;
+    background-color: #040301;
+    }
+    h1 {
+    position: relative;
+    top: 21px;
+    left: 43px;
+    font-size: 17px;
+    }
+   
+
+    h3 {
+    position:relative;
+    top: 22px;
+    left: 94px;
+    font-size: 12px;
+    }
+    .line-text {
+    position: relative;
+    top: 37px;
+    left: 32px;
+    font-size: 8px;
+    color: silver;
+    letter-spacing: 4px;
+    }
+    /* ********************************************************************** */
+    section{
+        padding: 38px 0 ;
+        background-color: black;
+    }
+    .insider{
+        display:flex;
+       
+    }
+    .about-text{
+        height: 285px;
+        width: 988px;
+        background-color: #000000;
+        color: silver;
+        display: flex;
+        justify-content: center;
+        padding-left: 31px;
+        padding-top: 41px;
+        font-size: 14px;
+    }
+    .about-pic{
+        height: 285px;
+        width: 548px;
+        background-image: url(photo/stan-lee-marvel-rip-iron-man.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-color: black;
+    }
+    .highlight {
+        color: white;
+    }/* ****************************************************************** */
+    #milestone{
+    height: 300px;
+    background-color: black;
+   
+    }
+    .inside-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+    }
+    .heading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+    font-size: 23px;
+    color: silver;
+    letter-spacing: 23px;
+    background-color: black;
+    }
+    .box1{
+        margin: 0 5px;
+        height: 150px;
+        width: 105px;
+    /* background-image: url(photo/m.webp); */
+    background-color: rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position:top;
+    display: none;
+    }
+    .box-pic1{
+        height: 80px;
+        width: 80px;
+    margin-top: 15px;
+    background-image: url(photo/Eisner_Award_Trophy.png);
+    mix-blend-mode: multiply;
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    display: none;
+    }
+    .box-text{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 10px;
+    }
+    .box2{
+    margin: 0 5px;
+    height: 150px;
+    width: 105px;
+    background-color:  rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 10px;
+    display: none;
+    }
+    .box-pic2{
+        height: 80px;
+        width: 80px;
+    margin-top: 15px;
+    background-image: url(photo/harvey.jpg);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    display: none;
+    }
+    .box3{
+    margin: 0 5px;
+    height: 150px;
+    width: 105px;
+    background-color: rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 10px; 
+    }
+    .box-pic3{
+        height: 80px;
+        width: 80px;
+    margin-top: 15px;
+    background-image: url(photo/pga_goldfrills_logo.jpg);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+   }
+   .box4{
+    margin: 0 5px;
+    height: 150px;
+    width: 105px;
+    background-color:rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size:inherit;
+    background-position: 10px;
+   }
+   .box-pic4{
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    background-image: url(photo/VES.jpg);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+   }
+   .box5{
+    margin: 0 5px;
+    height: 150px;
+    width: 105px;
+    background-color:rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 10px;
+   }
+   .box-pic5{
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    background-image: url(photo/nationalmedalofart.jpeg);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    }
+    .box6{
+    margin: 0 5px;
+    height: 150px;
+    width: 105px;
+    background-color:rgb(169, 162, 162);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 10px;
+    }
+    .box-pic6{
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    background-image: url(photo/walkoffame.webp);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    }
+
+    /* ****************************************************** */
+
+#comic {
+    height: 300px;
+    background-color: black;
+  
+ }
+ .comic-inside{
+     display: flex;
+     justify-content: center;
+     padding-top: 40px;
+ }
+ .img-box{
+     height: 135px;
+     width: 183px;
+     margin:0 5px;
+     overflow: hidden;
+     
+ }.img-box img { 
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ 
+ .More{
+     text-decoration: none;
+     font-size: 22px;
+     display: flex;
+     justify-content: center;
+     padding-top: 33px;
+     color: silver;
+ }
+ 
+ /* ****************************************************************** */
+ 
+ #moives{
+     height: 300px;
+     background-color: black;
+   
+ }
+ 
+ /* ************************************************************************** */
+ 
+ .social-account{
+     background-color: black;
+     height: 65px;
+ }
+ .social-media{
+     display: flex;
+     padding-top: 10px;
+     justify-content: center;
+     align-items: center;
+ }
+ .cell{
+     height: 40px;
+     width: 40px;
+     border-radius: 400px;
+     text-decoration: none;
+     
+     
+ }
+ .cell:hover{
+     height: 40px;
+     width: 40px;
+     border-radius: 400px;
+     background-color: grey;
+     
+ }
+ .fa-brands{
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+ }
+    
+ 
+}
